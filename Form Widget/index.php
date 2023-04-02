@@ -11,6 +11,7 @@ $form = new Form();
 $form->addElement( new TextInput( 'Name', 'name' ) );
 $form->addElement( new TextInput( 'Email', 'email' ) );
 $form->addElement( new PasswordInput( 'Password', 'password' ) );
+$form->addElement( new SelectInput( 'Gender', 'gender', '', ['male', 'female', 'shemale'] ) );
 $form->addElement( new Button( 'Registration' ) );
 ?>
 <!DOCTYPE html>
